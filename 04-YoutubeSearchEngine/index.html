@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SearchVidz</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css" media="screen" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+  
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>Search <span>Vidz</span></h1>
+      <p>Search all Youtube videos</p>
+    </header>
+    <section>
+      <form action="" id="search-form" name="search-form" onsubmit="return search()">
+        <div class="fieldcontainer">
+          <input type="search" name="" id="query" class="search-field" placeholder="Search YouTube...">
+          <input type="submit" value="" name="search-btn" id="search-btn">
+        </div>
+      </form>
+
+      <ul id="results"></ul>
+      <div id="buttons"></div>
+    </section>
+    <footer>
+      <p>Copyright &copy; 2014, All Rights Reserved</p>
+    </footer>
+  </div>
+
+  <script src="js/script.js"></script>
+  <script>
+    $(document).ready(function () {
+      /* $("#various2").fancybox({
+        'width': '75%',
+        'height': '75%',
+        'autoScale': false,
+        'transitionIn': 'none',
+        'transitionOut': 'none',
+        padding: 0,
+        openEffect: 'elastic',
+        showCloseButton: true,
+        'type': 'iframe'
+      });
+
+      $("#various3").fancybox({
+        'width': '75%',
+        'height': '75%',
+        // 'modal': true,
+        'autoScale': false,
+        'transitionIn': 'none',
+        'transitionOut': 'none',
+        'type': 'iframe',
+      }); */
+    });
+  </script>
+</body>
+
+</html>
