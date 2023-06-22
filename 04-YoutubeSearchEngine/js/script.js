@@ -103,7 +103,7 @@ function nextPage() {
       q: q,
       pageToken: token,
       type: "video",
-      key: "AIzaSyCHNgxbUjKcRkLbU8UE_rE6BP5i4TrMbec",
+      key: "",
     },
     function (data) {
       let nextPageToken = data.nextPageToken;
